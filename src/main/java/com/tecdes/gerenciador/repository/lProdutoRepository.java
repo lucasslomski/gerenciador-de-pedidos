@@ -1,10 +1,10 @@
 package com.tecdes.gerenciador.repository;
 
+import com.tecdes.gerenciador.model.Produto;
+import com.tecdes.gerenciador.repository.IProdutoRepository;
 import java.util.List;
+import java.util.ArrayList;
 
-/**
- * Interface que define as operações CRUD para Produto
- */
 public interface IProdutoRepository {
     Produto save(Produto produto);
     Produto findById(Integer id);
